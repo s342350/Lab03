@@ -37,7 +37,7 @@ class Autonoleggio:
         # TODO
 
     def automobili_ordinate_per_marca(self):
-        return sorted(self.listaAuto, key =lambda auto:auto.marca.lower())
+        return sorted(self.listaAuto, key=lambda auto:auto.marca)
         """Ordina le automobili per marca in ordine alfabetico"""
         # TODO
 
