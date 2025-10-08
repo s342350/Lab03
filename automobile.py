@@ -8,4 +8,3 @@ class Automobile:
 
     def __str__(self):
         return f"{self.codice}: {self.marca}, {self.modello}, {self.anno}, {self.n_posti}"
-
