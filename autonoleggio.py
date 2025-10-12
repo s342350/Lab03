@@ -48,7 +48,7 @@ class Autonoleggio:
         auto = None  # Inizializziamo la variabile auto a None, cioè "non trovata"
         for a in self.listaAuto:  # Per ogni automobile nella lista
             if a.codice == id_automobile:  # Se il codice corrisponde a quello cercato
-                auto = a  # Assegniamo l'auto trovata alla variabile auto
+                auto = a  # si assegna l'auto trovata alla variabile auto
                 break  # Uscimo dal ciclo, non serve cercare oltre
 
         if auto is None:
