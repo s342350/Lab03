@@ -11,10 +11,10 @@ class Autonoleggio:
         self.noleggiAttivi=[]
         self.codiceAutoCounter=1
         self.codiceNoleggiCounter=1
-
-        """Inizializza gli attributi e le strutture dati"""
+    """Inizializza gli attributi e le strutture dati"""
         # TODO
-
+    def __str__(self):
+        return f"{self.nome}, {self.responsabile}, {self.codiceAutoCounter}, {self.codiceNoleggiCounter}"
     def carica_file_automobili(self, file_path):
         """Carica le auto dal file"""
         try:
